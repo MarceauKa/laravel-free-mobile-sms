@@ -22,7 +22,7 @@ Si vous êtes chez **Free Mobile**, cette option est gratuite ! Ne vous en prive
 
 Installer ce paquet avec Composer:  
 ```bash
-composer require akibatech/laravel-free-mobile-sms dev-master
+composer require akibatech/laravel-free-mobile-sms
 ```
 
 Ajoutez le ServiceProvider dans **config/app.php**:  
