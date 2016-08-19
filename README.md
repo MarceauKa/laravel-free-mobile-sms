@@ -1,6 +1,6 @@
 # Laravel Free Mobile SMS
 
-[![Build Status](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/badges/build.png?b=master)](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/badges/build.png?b=master)](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/AkibaTech/laravel-free-mobile-sms/?branch=master) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/4de86e1b-49fb-4dea-8581-2005bffae265/mini.png)](https://insight.sensiolabs.com/projects/4de86e1b-49fb-4dea-8581-2005bffae265)
 
 Ce paquet vous permet d'**envoyer extrêment facilement** des **notifications SMS** sur votre **téléphone Free Mobile** depuis votre application Laravel 5.  
 
