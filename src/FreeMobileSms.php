@@ -73,11 +73,12 @@ class FreeMobileSms
      * @param   void
      * @return  CurlClient
      */
-    protected function newClient()
+    protected function newClient($message)
     {
         $client = new CurlClient(self::$endpoint, [
             'user' => $this->credentials['user'],
-            'pass' => $this->credentials['pass']
+            'pass' => $this->credentials['pass'],
+            'msg'  => $message
         ]);
 
         return $client;
@@ -89,11 +90,13 @@ class FreeMobileSms
      * Send a new message.
      *
      * @param   string $message
-     * @return  string
+     * @return  int
      */
     public function send($message = '')
     {
-        return $this->newClient()->addOption('msg', $message)->getResponse();
+        $return = $this->newClient($message)->hit();
+
+        return $return;
     }
 
     //-------------------------------------------------------------------------

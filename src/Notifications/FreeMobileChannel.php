@@ -37,13 +37,13 @@ class FreeMobileChannel
      *
      * @param   mixed  $notifiable
      * @param   \Illuminate\Notifications\Notification  $notification
-     * @return  string
+     * @return  bool
      */
     public function send($notifiable, Notification $notification)
     {
         $message = $notification->toFreeMobile($notifiable);
 
-        return $this->client->send($message->message);
+        return $this->client->send($message->message) === 200;
     }
 
     //-------------------------------------------------------------------------

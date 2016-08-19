@@ -1,6 +1,6 @@
 {
     "name": "akibatech/laravel-free-mobile-sms",
-    "description": "The Free Mobile SMS API integration for Laravel 5.",
+    "description": "Intégration de l'envoi de SMS avec Free Mobile pour Laravel 5",
     "keywords": ["laravel", "laravel5", "sms", "api", "free", "mobile", "notification", "channel"],
     "license": "MIT",
     "authors": [
