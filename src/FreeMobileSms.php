@@ -42,8 +42,7 @@ class FreeMobileSms
                 'user',
                 'pass',
             ]);
-        }
-        else
+        } else
         {
             $this->loadCredentialsFromConfig();
         }
@@ -70,7 +69,7 @@ class FreeMobileSms
     /**
      * Create the CurlClient client.
      *
-     * @param   void
+     * @param   string $message
      * @return  CurlClient
      */
     protected function newClient($message)

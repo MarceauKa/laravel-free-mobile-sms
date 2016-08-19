@@ -3,7 +3,6 @@
 namespace Akibatech\FreeMobileSms\Notifications;
 
 use Akibatech\FreeMobileSms\FreeMobileSms;
-use Akibatech\FreeMobileSms\Notifications\FreeMobileMessage;
 use Illuminate\Notifications\Notification;
 
 /**

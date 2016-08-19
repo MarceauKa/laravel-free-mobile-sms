@@ -36,7 +36,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         $this->app->bind(FreeMobileSms::class, FreeMobileSms::class);
 
-        $this->app->singleton('freemobile', function ($app)
+        $this->app->singleton('freemobile', function($app)
         {
             return new FreeMobileSms();
         });

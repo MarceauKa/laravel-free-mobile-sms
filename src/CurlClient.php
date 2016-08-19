@@ -43,7 +43,7 @@ class CurlClient
      * Add an option.
      *
      * @param   string $key
-     * @param   mixed  $value
+     * @param   string $value
      * @return  $this
      */
     public function addOption($key, $value)

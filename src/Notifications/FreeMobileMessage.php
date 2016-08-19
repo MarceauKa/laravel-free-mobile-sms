@@ -34,7 +34,7 @@ class FreeMobileMessage
     /**
      * Set the message content.
      *
-     * @param   string $content
+     * @param   string $message
      * @return  self
      */
     public function message($message)
